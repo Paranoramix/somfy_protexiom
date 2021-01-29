@@ -1,0 +1,1 @@
+Somfy Protexiom Integration for HACS
