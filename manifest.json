@@ -1,0 +1,12 @@
+{
+    "domain": "somfy_protexiom",
+    "name": "Somfy Protexiom",
+    "documentation": "https://github.com/paranoramix/somfy_protexiom",
+    "issue_tracker": "",
+    "dependencies": [],
+    "config_flow": true,
+    "codeowners": [
+      "@paranoramix"
+    ],
+    "requirements": []
+  }
