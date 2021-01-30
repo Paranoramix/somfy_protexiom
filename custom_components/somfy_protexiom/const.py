@@ -1,25 +1,5 @@
-"""Constants for integration_blueprint."""
-# Base component constants
-NAME = "Somfy Protexiom"
-DOMAIN = "somfy_protexiom"
-DOMAIN_DATA = f"{DOMAIN}_data"
-VERSION = "0.1"
+"""Constants for the Detailed Hello World Push integration."""
 
-
-# Configuration and options
-CONF_ENABLED = "enabled"
-CONF_USERNAME = "username"
-CONF_PASSWORD = "password"
-
-# Defaults
-DEFAULT_NAME = DOMAIN
-
-
-STARTUP_MESSAGE = f"""
--------------------------------------------------------------------
-{NAME}
-Version: {VERSION}
-This is a custom integration!
-If you have any issues with this you need to open an issue here:
--------------------------------------------------------------------
-"""
+# This is the internal name of the integration, it should also match the directory
+# name for the integration.
+DOMAIN = "detailed_hello_world_push"
