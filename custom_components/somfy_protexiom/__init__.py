@@ -18,7 +18,6 @@ from .const import (
     CONF_PASSWORD,
     CONF_USERNAME,
     DOMAIN,
-    PLATFORMS,
     STARTUP_MESSAGE,
 )
 
