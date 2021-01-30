@@ -22,6 +22,8 @@ from .const import (
     STARTUP_MESSAGE,
 )
 
+PLATFORMS = []
+
 SCAN_INTERVAL = timedelta(seconds=30)
 
 _LOGGER: logging.Logger = logging.getLogger(__package__)
