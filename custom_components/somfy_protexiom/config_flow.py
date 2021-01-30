@@ -3,7 +3,7 @@ import logging
 import voluptuous as vol
 
 from homeassistant import config_entries, core, data_entry_flow, exceptions
-from homeassistant.const import DOMAIN, CONF_ENABLED, CONF_USERNAME, CONF_PASSWORD
+from homeassistant.const import CONF_ENABLED, CONF_USERNAME, CONF_PASSWORD
 from homeassistant.core import callback
 
 
