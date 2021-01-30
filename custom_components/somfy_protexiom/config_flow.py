@@ -13,8 +13,10 @@ from .const import(
 
 class SomfyProtexiomConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Config Flow to configure easily Somfy Protexiom"""
-    async def async_step_user(self, info):
-        if info is not None:
+    async def async_step_user(self, user_input=None):
+        errors = {}
+
+        if user_input is not None:
             pass # TODO: process info
 
         return self.async_show_form(
